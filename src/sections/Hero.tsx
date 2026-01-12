@@ -59,7 +59,7 @@ export default function Hero() {
                 onMouseEnter={playHoverSound}
                 className="mt-16 px-12 py-6 bg-white text-black text-4xl rounded-full border-8 border-white hover:bg-black hover:text-white hover:border-white transition-all transform hover:-rotate-6 hover:scale-125 active:scale-95 shadow-[8px_8px_0px_0px_rgba(255,255,255,0.5)] font-black"
             >
-                BUY $BLOBFART
+                <a href="https://pump.fun/coin/5udQe616G4oRNmur4RALxEhzqQ3Y37UVrVZRbxx9pump" target="_blank" rel="noreferrer">BUY $BLOBFART</a>
             </button>
 
             {/* CA Copy Section */}
