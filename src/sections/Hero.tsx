@@ -4,7 +4,7 @@ import { playHoverSound } from '../utils/audio';
 
 export default function Hero() {
     const [copied, setCopied] = useState(false);
-    const ca = "Coming Soon"; // Replace with real CA
+    const ca = "5udQe616G4oRNmur4RALxEhzqQ3Y37UVrVZRbxx9pump"; // Replace with real CA
 
     const handleCopy = () => {
         navigator.clipboard.writeText(ca);

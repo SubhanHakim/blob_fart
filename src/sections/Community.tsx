@@ -23,7 +23,7 @@ export default function Community() {
                     <div className="absolute -inset-2 bg-gray-500 rounded-[2rem] transform -rotate-2 opacity-50 group-hover:-rotate-4 transition-all duration-300"></div>
 
                     <a
-                        href="https://x.com"
+                        href="https://x.com/blobfart_?s=21&t=p8y9jAhkYdmzWlb-DnEN9Q"
                         target="_blank"
                         rel="noreferrer"
                         onMouseEnter={playHoverSound}

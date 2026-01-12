@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="mb-12">
                 <p className="text-xl opacity-50 mb-2">Contract Address</p>
                 <div className="inline-block border-2 border-dashed border-white px-4 py-2 text-xl font-mono">
-                    0x000...0000
+                    5udQe616G4oRNmur4RALxEhzqQ3Y37UVrVZRbxx9pump
                 </div>
             </div>
 
