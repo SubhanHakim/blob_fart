@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-chewy: 'Chewy', cursive;
+}
+
+@layer base {
+  body {
+    background-color: black;
+    color: white;
+    font-family: 'Chewy', cursive;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+  .animate-spin-slow {
+    animation: spin 3s linear infinite;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
